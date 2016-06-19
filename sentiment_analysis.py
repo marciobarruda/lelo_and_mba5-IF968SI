@@ -161,7 +161,7 @@ def computeSumSquaredErrors(reviews,words): ###estudar###
     for review in reviews: #para cada comentário
         scoreReview = computeSentiment(review[1],words)
         diferenca = review[0]-scoreReview
-        sse = sse + diferenca**2
+        sse = sse + (diferenca)**2
 
     return sse/len(reviews)
 
