@@ -149,7 +149,7 @@ def computeSentiment(review,words):
     
     return score/count
 
-def computeSumSquaredErrors(reviews,words): ###estudar###
+def computeSumSquaredErrors(reviews,words):
     '''    Computa a soma dos quadrados dos erros dos comentarios recebidos
         como parametro. O sentimento de um comentario e' obtido com a
         funcao computeSentiment. 
