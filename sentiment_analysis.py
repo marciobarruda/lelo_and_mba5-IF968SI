@@ -121,7 +121,7 @@ def readTestSet(fname):
         for palavra in frasePartida:
                 palavra = clean_up(palavra)
                 fraseLimpa.append(palavra)
-        reviews.append((scoreFrase,fraseLimpa))#adiciona-se a nova lista uma tupla com o score e a converção da lista anterior em frase
+        reviews.append((scoreFrase,fraseLimpa))#adiciona-se à nova lista uma tupla com o score e uma lista com as palavras restantes devidamente limpas de stopWords
 
     return reviews
 
